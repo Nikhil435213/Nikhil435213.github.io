@@ -1,5 +1,5 @@
 {
-  "homepage":"https://nikhil435213/draggable.github.io/",
+  "homepage": "https://nikhil435213.github.io/draggable1.github.io/",
   "name": "draggable",
   "version": "0.1.0",
   "private": true,
@@ -19,8 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-      }
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,7 +40,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
-    //"master": "^0.0.14"
+    "gh-pages": "^4.0.0"
   }
 }
